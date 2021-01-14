@@ -96,55 +96,55 @@ func DeployETHSmartContract() {
 		panic(err)
 	}
 
-	lockproxyAddrHex := lockProxyAddr.Hex()
-	erc20Addr, erc20, err := invoker.DeployERC20()
-	if err != nil {
-		panic(err)
-	}
+	// lockproxyAddrHex := lockProxyAddr.Hex()
+	// erc20Addr, erc20, err := invoker.DeployERC20()
+	// if err != nil {
+	// 	panic(err)
+	// }
 
-	total, err := erc20.TotalSupply(nil)
-	if err != nil {
-		panic(fmt.Errorf("failed to get total supply for erc20: %v", err))
-	}
-	auth, _ := invoker.MakeSmartContractAuth()
-	tx, err := erc20.Approve(auth, lockProxyAddr, total)
-	if err != nil {
-		panic(fmt.Errorf("failed to approve erc20 to lockproxy: %v", err))
-	}
-	invoker.ETHUtil.WaitTransactionConfirm(tx.Hash())
+	// total, err := erc20.TotalSupply(nil)
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to get total supply for erc20: %v", err))
+	// }
+	// auth, _ := invoker.MakeSmartContractAuth()
+	// tx, err := erc20.Approve(auth, lockProxyAddr, total)
+	// if err != nil {
+	// 	panic(fmt.Errorf("failed to approve erc20 to lockproxy: %v", err))
+	// }
+	// invoker.ETHUtil.WaitTransactionConfirm(tx.Hash())
 
-	oep4Addr, _, err := invoker.DeployOEP4(lockproxyAddrHex)
-	if err != nil {
-		panic(err)
-	}
-	ongxAddr, _, err := invoker.DeployONGXContract(lockproxyAddrHex)
-	if err != nil {
-		panic(err)
-	}
-	ontxAddr, _, err := invoker.DeployONTXContract(lockproxyAddrHex)
-	if err != nil {
-		panic(err)
-	}
+	// oep4Addr, _, err := invoker.DeployOEP4(lockproxyAddrHex)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// ongxAddr, _, err := invoker.DeployONGXContract(lockproxyAddrHex)
+	// if err != nil {
+	// 	panic(err)
+	// }
+	// ontxAddr, _, err := invoker.DeployONTXContract(lockproxyAddrHex)
+	// if err != nil {
+	// 	panic(err)
+	// }
 
 	fmt.Println("=============================ETH info=============================")
-	fmt.Println("bsc erc20:", erc20Addr.Hex())
-	fmt.Println("bsc ope4:", oep4Addr.Hex())
+	// fmt.Println("bsc erc20:", erc20Addr.Hex())
+	// fmt.Println("bsc ope4:", oep4Addr.Hex())
 	fmt.Println("bsc eccd address:", eccdAddr.Hex())
 	fmt.Println("bsc eccm address:", eccmAddr.Hex())
 	fmt.Println("bsc eccmp address:", eccmpAddr.Hex())
 	fmt.Println("bsc lock proxy address: ", lockProxyAddr.Hex())
-	fmt.Println("bsc ongx address: ", ongxAddr.Hex())
-	fmt.Println("bsc ontx proxy address: ", ontxAddr.Hex())
+	// fmt.Println("bsc ongx address: ", ongxAddr.Hex())
+	// fmt.Println("bsc ontx proxy address: ", ontxAddr.Hex())
 	fmt.Println("==================================================================")
 
-	config.DefConfig.Bep20 = erc20Addr.Hex()
-	config.DefConfig.BscOep4 = oep4Addr.Hex()
+	// config.DefConfig.Bep20 = erc20Addr.Hex()
+	// config.DefConfig.BscOep4 = oep4Addr.Hex()
 	config.DefConfig.BscEccd = eccdAddr.Hex()
 	config.DefConfig.BscEccm = eccmAddr.Hex()
 	config.DefConfig.BscEccmp = eccmpAddr.Hex()
 	config.DefConfig.BscLockProxy = lockProxyAddr.Hex()
-	config.DefConfig.BscOngx = ongxAddr.Hex()
-	config.DefConfig.BscOntx = ontxAddr.Hex()
+	// config.DefConfig.BscOngx = ongxAddr.Hex()
+	// config.DefConfig.BscOntx = ontxAddr.Hex()
 
 	if err := config.DefConfig.Save(ethConfFile); err != nil {
 		panic(fmt.Errorf("failed to save config, you better save it youself: %v", err))

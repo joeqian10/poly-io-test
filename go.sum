@@ -190,7 +190,6 @@ github.com/gballet/go-libpcsclite v0.0.0-20190607065134-2772fd86a8ff h1:tY80oXqG
 github.com/gballet/go-libpcsclite v0.0.0-20190607065134-2772fd86a8ff/go.mod h1:x7DCsMOv1taUwEWCzT4cmDeAkigA5/QCwUodaVOe8Ww=
 github.com/gcash/bchd v0.14.7/go.mod h1:Gk/O1ktRVW5Kao0RsnVXp3bWxeYQadqawZ1Im9HE78M=
 github.com/gcash/bchd v0.15.2/go.mod h1:k9wIjgwnhbrAw+ruIPZ2tHZMzfFNdyUnORZZX7lqXGY=
-github.com/gcash/bchd v0.16.4/go.mod h1:gR67ljCexTNwbKYN3wjbRHi9lYLp4rMomy1UQ3E1USA=
 github.com/gcash/bchd v0.16.5 h1:hkLUecfvcf2wf5vy05vp5X0OG9I5xWKnxdHU2/KI8PM=
 github.com/gcash/bchd v0.16.5/go.mod h1:gR67ljCexTNwbKYN3wjbRHi9lYLp4rMomy1UQ3E1USA=
 github.com/gcash/bchlog v0.0.0-20180913005452-b4f036f92fa6 h1:3pZvWJ8MSfWstGrb8Hfh4ZpLyZNcXypcGx2Ju4ZibVM=
@@ -286,7 +285,6 @@ github.com/gorilla/websocket v1.4.1/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/ad
 github.com/gorilla/websocket v1.4.2 h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/gosuri/uilive v0.0.3/go.mod h1:qkLSc0A5EXSP6B04TrN4oQoxqFI7A8XvoXSlJi8cwk8=
-github.com/gosuri/uilive v0.0.4/go.mod h1:V/epo5LjjlDE5RJUcqx8dbw+zc93y5Ya3yg8tfZ74VI=
 github.com/gosuri/uiprogress v0.0.1/go.mod h1:C1RTYn4Sc7iEyf6j8ft5dyoZ4212h8G1ol9QQluh5+0=
 github.com/graph-gophers/graphql-go v0.0.0-20191115155744-f33e81362277/go.mod h1:9CQHMSxwO4MprSdzoIEobiHpoLtHm77vfxsvsIN5Vuc=
 github.com/grpc-ecosystem/go-grpc-middleware v1.0.0/go.mod h1:FiyG127CGDf3tlThmgyCl78X/SZQqEOJBCDaAfeWzPs=
@@ -351,7 +349,6 @@ github.com/jessevdk/go-flags v1.4.0/go.mod h1:4FA24M0QyGHXBuZZK/XkWh8h0e1EYbRYJS
 github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af/go.mod h1:Nht3zPeWKUH0NzdCt2Blrr5ys8VGpn0CEB0cQHVjt7k=
 github.com/jmhodges/levigo v1.0.0 h1:q5EC36kV79HWeTBWsod3mG11EgStG3qArTKcvlksN1U=
 github.com/jmhodges/levigo v1.0.0/go.mod h1:Q6Qx+uH3RAqyK4rFQroq9RL7mdkABMcfhEI+nNuzMJQ=
-github.com/joeqian10/neo-gogogo v0.0.0-20200611102831-c17de5e1f0f8/go.mod h1:1fVDp4U1ROZQBRIooecbGNHHJpfs3bG9528sqlZ096g=
 github.com/joeqian10/neo-gogogo v0.0.0-20200716075409-923bd4879b43/go.mod h1:1fVDp4U1ROZQBRIooecbGNHHJpfs3bG9528sqlZ096g=
 github.com/joeqian10/neo-gogogo v0.0.0-20200811090937-d8aab8600241 h1:kfTkgo18r3VFWrr3z8arDU05yHiX/nU1ZaDgEApinMo=
 github.com/joeqian10/neo-gogogo v0.0.0-20200811090937-d8aab8600241/go.mod h1:1fVDp4U1ROZQBRIooecbGNHHJpfs3bG9528sqlZ096g=
@@ -508,16 +505,6 @@ github.com/polynetwork/btc-vendor-tools v0.0.0-20200813091748-3b19a5fd7666 h1:oV
 github.com/polynetwork/btc-vendor-tools v0.0.0-20200813091748-3b19a5fd7666/go.mod h1:U8rR9X6vemlkBAJWfvzwSoalcJjX8B2aQjB0kPRhBUA=
 github.com/polynetwork/cosmos-poly-module v0.0.0-20200810030259-95d586518759 h1:M0DV6MUVXOZtdQ94i8oYuSAX+ljzEe+mMqb2Llnm/oM=
 github.com/polynetwork/cosmos-poly-module v0.0.0-20200810030259-95d586518759/go.mod h1:VMBJZ8GSZeoWBntd/rWx2Rr5roRKofO7siP1qd6A6pY=
-github.com/polynetwork/poly v0.0.0-20200710095239-0596a3d7afe5/go.mod h1:UzlGEWk0eCGsuMJOZfBoZjRbmu4Yw/SudKAIFe1gPnY=
-github.com/polynetwork/poly v0.0.0-20200715030435-4f1d1a0adb44/go.mod h1:UzlGEWk0eCGsuMJOZfBoZjRbmu4Yw/SudKAIFe1gPnY=
-github.com/polynetwork/poly v0.0.0-20201215081835-44303924f13c h1:FI45q7Ej3ROUDtmThE13AAGGJnNCLst/FEECFvW7fSw=
-github.com/polynetwork/poly v0.0.0-20201215081835-44303924f13c/go.mod h1:GLCHH85w+7Ca5P65hAd2qHgt5Azg0yuODLqAOfV1UTU=
-github.com/polynetwork/poly v0.0.0-20201216061550-50185057319d h1:XAQNgWfPcBofzQEz7bAYs3ypGAHgkWF7eUzk0BkdtyY=
-github.com/polynetwork/poly v0.0.0-20201216061550-50185057319d/go.mod h1:SrFSYe/3uWkouGvoSGkjDPm5sNT95dSFZkQtXRun148=
-github.com/polynetwork/poly v1.11.0 h1:1xEWr9z9/TCs/XM7eXBTmF2RT061G1zTumqAVdjzR+A=
-github.com/polynetwork/poly-go-sdk v0.0.0-20200722030827-6875b6018b93/go.mod h1:a1wMo/VFoUAKX2yVjipvFug6Yu5BPhf/2tP5xywqfIc=
-github.com/polynetwork/poly-go-sdk v0.0.0-20200817120957-365691ad3493 h1:wob4aH5NxiDFIOWlpKbmoIb88QOccDNa1+rl93czjr8=
-github.com/polynetwork/poly-go-sdk v0.0.0-20200817120957-365691ad3493/go.mod h1:a1wMo/VFoUAKX2yVjipvFug6Yu5BPhf/2tP5xywqfIc=
 github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndrE9hABlRI=
 github.com/prometheus/client_golang v0.9.1/go.mod h1:7SWBe2y4D6OKWSNQJUaRYU/AaXPKyh/dDVn+NZz0KFw=
 github.com/prometheus/client_golang v0.9.3-0.20190127221311-3c4408c8b829/go.mod h1:p2iRAGwDERtqlqzRXnrOVns+ignqQo//hLXqYxZYVNs=
@@ -675,8 +662,8 @@ github.com/zhiqiangxu/poly-go-sdk v0.0.0-20201215024222-5d728b68e651 h1:Ogrd4dHj
 github.com/zhiqiangxu/poly-go-sdk v0.0.0-20201215024222-5d728b68e651/go.mod h1:a1wMo/VFoUAKX2yVjipvFug6Yu5BPhf/2tP5xywqfIc=
 github.com/zondax/hid v0.9.0 h1:eiT3P6vNxAEVxXMw66eZUAAnU2zD33JBkfG/EnfAKl8=
 github.com/zondax/hid v0.9.0/go.mod h1:l5wttcP0jwtdLjqjMMWFVEE7d1zO0jvSPA9OPZxWpEM=
-github.com/zouxyan/eth-contracts v0.0.0-20201215112041-6532ab4e12f4 h1:A+kC+RAocm9jwmwxUqzBYSbCMsz4bI7JBNT+uYzC6NY=
-github.com/zouxyan/eth-contracts v0.0.0-20201215112041-6532ab4e12f4/go.mod h1:7+sPWP1/qbE3V8HbByvuoIJpBZ0TWZF50xHAJIXQ1pA=
+github.com/zouxyan/eth-contracts v0.0.0-20210114073644-50c9826d6080 h1:TMpLumfAI/O9s9R6zvvQj3hb3U+DZnVOMwvcd5zp7EM=
+github.com/zouxyan/eth-contracts v0.0.0-20210114073644-50c9826d6080/go.mod h1:7+sPWP1/qbE3V8HbByvuoIJpBZ0TWZF50xHAJIXQ1pA=
 github.com/zquestz/grab v0.0.0-20190224022517-abcee96e61b1 h1:1qKTeMTSIEvRIjvVYzgcRp0xVp0eoiRTTiHSncb5gD8=
 github.com/zquestz/grab v0.0.0-20190224022517-abcee96e61b1/go.mod h1:bslhAiUxakrA6z6CHmVyvkfpnxx18RJBwVyx2TluJWw=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=

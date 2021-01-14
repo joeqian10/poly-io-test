@@ -17,7 +17,7 @@ require (
 	github.com/ontio/ontology-go-sdk v1.11.9-0.20200819065441-7c4b7a8330f6
 	github.com/polynetwork/btc-vendor-tools v0.0.0-20200813091748-3b19a5fd7666
 	github.com/polynetwork/cosmos-poly-module v0.0.0-20200810030259-95d586518759
-	github.com/polynetwork/eth-contracts v0.0.0-20200903021827-c9212e419943
+	github.com/polynetwork/eth-contracts v0.0.0
 	github.com/polynetwork/poly v0.0.0-20201216061550-50185057319d
 	github.com/polynetwork/poly-go-sdk v0.0.0-20200817120957-365691ad3493
 	github.com/stretchr/testify v1.6.1
@@ -30,7 +30,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
 )
 
-replace github.com/polynetwork/eth-contracts => github.com/zouxyan/eth-contracts v0.0.0-20201215112041-6532ab4e12f4
+replace github.com/polynetwork/eth-contracts => github.com/zouxyan/eth-contracts v0.0.0-20210114073644-50c9826d6080
 
 replace github.com/polynetwork/poly => github.com/zhiqiangxu/poly v0.0.0-20201216075543-df86073d2575
 
